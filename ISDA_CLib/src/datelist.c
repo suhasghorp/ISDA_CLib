@@ -33,7 +33,7 @@
 ** Returns a new DateList on success, and NULL on failure.
 ***************************************************************************
 */
-TDateList* JpmcdsNewDateList(
+EXPORT TDateList* JpmcdsNewDateList(
     TDate startDate,                    /* (I) Start Date */
     TDate maturityDate,                 /* (I) Maturity Date */
     TDateInterval *interval,            /* (I) Increment */

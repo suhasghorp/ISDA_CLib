@@ -496,7 +496,7 @@ TDate JpmcdsDate
 ** the fastest type on a given architecture.
 ***************************************************************************
 */
-int JpmcdsDateToMDY
+EXPORT int JpmcdsDateToMDY
     (TDate         date,                /* (I) Days since 1/1/BASE_YEAR. */
      TMonthDayYear *mdy)                /* (O) Month/Day/Year format */
 {
