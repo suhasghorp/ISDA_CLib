@@ -1,2 +1,2 @@
 # ISDA_CLib
-Visual Studio solution to compile ISDA CDS model
+Visual Studio 2017 solution to compile ISDA CDS model
